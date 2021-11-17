@@ -2,6 +2,7 @@
   --accent-color: #0091ea;
   --main-color: #263238;
   --doc-width: 1300px;
+  --Merriweather: "Merriweather";
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Merriweather&display=swap");
@@ -64,4 +65,19 @@ p {
 .co-floods{
 	/* width: var(--doc-width); */
 	margin: 5em auto;
+}
+
+.carousel-caption {
+	/* color: var(--main-color); */
+	left: 5%;
+	padding: 2rem;
+	background-color: var(--main-color);
+}
+
+
+.carousel-caption h5 {
+	font-family: var(--Merriweather);
+	line-height: 1;
+	font-size: 3em;
+	margin-bottom: 0.5em;
 }
