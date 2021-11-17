@@ -1,0 +1,67 @@
+:root {
+  --accent-color: #0091ea;
+  --main-color: #263238;
+  --doc-width: 1300px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Merriweather&display=swap");
+
+body {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 200;
+}
+
+h1,
+h2 {
+  font-family: "Merriweather", serif;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+.accent-text {
+  color: var(--accent-color);
+}
+
+.hero {
+  color: white;
+  background-color: var(--main-color);
+  width: 100%;
+  height: 750px;
+}
+
+.hero h1 {
+  font-size: 4em;
+  margin-top: 1em;
+  padding-bottom: 0.5em;
+  line-height: 1;
+}
+
+.hero .line {
+  width: 100px;
+  border-bottom: 3px solid white;
+  margin-bottom: 2em;
+}
+
+.logo-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  padding: 2em 0;
+  /* background-color: red; */
+}
+
+.logo-row img {
+  width: 130px;
+}
+
+.co-floods{
+	/* width: var(--doc-width); */
+	margin: 5em auto;
+}
