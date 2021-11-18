@@ -156,11 +156,15 @@ nav {
 
 .engagement .card {
   padding: 3em;
-  margin: 3em 0;
+  margin: 1em 0;
   border: 1px solid var(--main-color);
   align-items: center;
   text-align: center;
   height: 400px;
+}
+
+.engagement .cards {
+  margin: 3em 0;
 }
 
 .engagement .card .sub-heading{
@@ -178,4 +182,13 @@ nav {
 
 .engagement .card ul{
   padding-top: 2em;
+}
+
+.engagement p{
+  margin-bottom: 0;
+}
+
+.engagement .public-meetings {
+  padding-top: 5em;
+  align-items: center;
 }
