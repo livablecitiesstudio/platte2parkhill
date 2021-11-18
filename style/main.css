@@ -13,7 +13,7 @@ body {
 }
 
 h1,
-h2 {
+h2, h3, h4 {
   font-family: "Merriweather", serif;
 }
 
@@ -23,6 +23,16 @@ h2 {
 
 p {
   line-height: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: var(--accent-color);
+  font-weight: 400;
+}
+
+.nav .fas {
+  color: var(--accent-color);
 }
 
 .accent-text {
@@ -106,16 +116,17 @@ nav {
 }
 
 .carousel-caption {
-	left: 5%;
+  color: var(--main-color);
+	left: 10%;
 	padding: 2rem;
-	background-color: var(--main-color);
+	background-color: rgba(255,255,255,0.7);
 }
 
 
 .carousel-caption h5 {
 	font-family: var(--Merriweather);
 	line-height: 1;
-	font-size: 3em;
+	/* font-size: 1.5em; */
 	margin-bottom: 0.5em;
 }
 
@@ -124,6 +135,47 @@ nav {
   height: 6px;
 }
 
+.demographics {
+  padding: 10em 0;
+  
+}
+
 .footer-bar{
   padding: 3em 0 2em 0;
+}
+
+.engagement {
+  padding: 10em 0;
+  text-align: center;
+}
+
+.engagement i {
+  /* font-weight: 100; */
+  font-size: 5em;
+}
+
+.engagement .card {
+  padding: 3em;
+  margin: 3em 0;
+  border: 1px solid var(--main-color);
+  align-items: center;
+  text-align: center;
+  height: 400px;
+}
+
+.engagement .card .sub-heading{
+  font-size: 0.7em;
+}
+
+.engagement .card i{
+  font-size: 2em;
+  color: var(--accent-color);
+}
+
+.engagement ul {
+  padding-left: 0;
+}
+
+.engagement .card ul{
+  padding-top: 2em;
 }
