@@ -29,17 +29,26 @@ p {
   color: var(--accent-color);
 }
 
-.hero {
+.img-credit {
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+nav {
+  color: main;
+  padding: 1em 0 0 0;
+}
+
+.hero, .footer-bar{
   color: white;
   background-color: var(--main-color);
   width: 100%;
-  height: 750px;
+  /* height: 750px; */
 }
 
 .hero h1 {
   font-size: 4em;
-  margin-top: 1em;
-  padding-bottom: 0.5em;
+  padding: 2em 0 0.5em 0;
   line-height: 1;
 }
 
@@ -54,8 +63,7 @@ p {
   display: flex;
   align-items: center;
   align-self: center;
-  padding: 2em 0;
-  /* background-color: red; */
+  padding: 0 0 4em 0;
 }
 
 .logo-row img {
@@ -63,12 +71,41 @@ p {
 }
 
 .co-floods{
-	/* width: var(--doc-width); */
-	margin: 5em auto;
+	margin: 5em 0;
+}
+
+.img-grid .row {
+  padding-right: 0;
+  overflow: hidden;
+}
+
+.co-floods .info, .challenges .info {
+  padding: 3em 0 2em 0;
+}
+
+.co-floods img{
+  object-fit: contain;
+  align-self: center;
+  flex: 0 0 auto; 
+  /* width: 100%; */
+  /* object-fit: scale-down; */
+
+  /* max-width: 100%; */
+}
+
+.co-floods .d-flex {
+  overflow: hidden;
+}
+
+.co-floods .padding-adjust {
+  padding-right: 0 !important;
+}
+
+.img-grid .row{
+  padding: 0 !important;
 }
 
 .carousel-caption {
-	/* color: var(--main-color); */
 	left: 5%;
 	padding: 2rem;
 	background-color: var(--main-color);
@@ -80,4 +117,13 @@ p {
 	line-height: 1;
 	font-size: 3em;
 	margin-bottom: 0.5em;
+}
+
+.carousel-indicators [data-bs-target]{
+  background-color: var(--main-color);
+  height: 6px;
+}
+
+.footer-bar{
+  padding: 3em 0 2em 0;
 }
