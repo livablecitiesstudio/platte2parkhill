@@ -86,7 +86,6 @@ nav {
 
 .img-grid .row {
   padding-right: 0;
-  overflow: hidden;
 }
 
 .co-floods .info, .challenges .info {
@@ -122,12 +121,15 @@ nav {
 	background-color: rgba(255,255,255,0.8);
 }
 
-
 .carousel-caption h5 {
 	font-family: var(--Merriweather);
 	line-height: 1;
 	/* font-size: 1.5em; */
 	margin-bottom: 0.5em;
+}
+
+.carousel-caption p {
+	margin-bottom: 0;
 }
 
 .carousel-indicators [data-bs-target]{
@@ -145,7 +147,14 @@ nav {
 
 .demographics {
   padding: 10em 0;
-  
+}
+
+.demo-info {
+  margin-bottom: 6em;
+}
+
+.three-projects .container{
+  margin-bottom: 4em;
 }
 
 .footer-bar{
