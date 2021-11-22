@@ -22,7 +22,7 @@ h2 {
 }
 
 p {
-  line-height: 1.5em;
+  line-height: 1.2em;
 }
 
 a {
@@ -119,7 +119,7 @@ nav {
   color: var(--main-color);
 	left: 10%;
 	padding: 2rem;
-	background-color: rgba(255,255,255,0.7);
+	background-color: rgba(255,255,255,0.8);
 }
 
 
@@ -133,6 +133,14 @@ nav {
 .carousel-indicators [data-bs-target]{
   background-color: var(--main-color);
   height: 6px;
+}
+
+.carousel-control-next-icon {
+  background-image: url("../img/arrow-right-circle-fill.svg");
+}
+
+.carousel-control-prev-icon {
+  background-image: url("../img/arrow-left-circle-fill.svg");
 }
 
 .demographics {
@@ -192,3 +200,4 @@ nav {
   padding-top: 5em;
   align-items: center;
 }
+
