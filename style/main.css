@@ -23,6 +23,7 @@ h2, h3, h4 {
 
 h2 {
   font-size: 2.5em;
+  margin-bottom: 1em;
 }
 
 p {
@@ -176,22 +177,13 @@ nav {
 }
 
 .engagement .card {
-  padding: 3em;
-  margin: 1em 0;
-  /* background-color: #f5f5f5; */
-  /* border: none; */
-  /* border: 1px solid #ddd; */
+  padding: 1em 3em;
   border: 2px solid var(--accent-color);
   border-radius: 0;
-  /* align-items: center; */
   text-align: left;
-  /* height: 450px; */
   box-shadow: 1px 5px 5px #42a4f52f;
   height: 100%;
-}
-
-.engagement .card-body {
-  /* padding: 0; */
+  background-color: white;
 }
 
 .card-line {
@@ -205,8 +197,13 @@ nav {
   margin: 3em 0;
 }
 
+.engagement h4 {
+  
+}
+
 .engagement .card .sub-heading{
-  font-size: 0.7em;
+  font-size: 1em;
+  line-height: 0.9em;
 }
 
 .engagement .card i{
@@ -218,7 +215,7 @@ nav {
   width: 100px;
   height: 100px;
   color: var(--accent-color);
-  /* margin-top: 0.5em; */
+  margin: 0.5em 0;
 }
 
 .engagement ul {
