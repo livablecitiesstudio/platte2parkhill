@@ -9,7 +9,11 @@
 
 body {
   font-family: "Fira Sans", sans-serif;
-  font-weight: 200;
+  font-weight: 300;
+}
+
+section {
+  padding-bottom: 5em;
 }
 
 h1,
@@ -18,7 +22,7 @@ h2, h3, h4 {
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 p {
@@ -174,10 +178,27 @@ nav {
 .engagement .card {
   padding: 3em;
   margin: 1em 0;
-  border: 1px solid var(--main-color);
-  align-items: center;
-  text-align: center;
-  height: 400px;
+  /* background-color: #f5f5f5; */
+  /* border: none; */
+  /* border: 1px solid #ddd; */
+  border: 2px solid var(--accent-color);
+  border-radius: 0;
+  /* align-items: center; */
+  text-align: left;
+  /* height: 450px; */
+  box-shadow: 1px 5px 5px #42a4f52f;
+  height: 100%;
+}
+
+.engagement .card-body {
+  /* padding: 0; */
+}
+
+.card-line {
+  /* margin: 0 auto; */
+  padding-top: 1em;
+  width: 50px;
+  border-bottom: 5px solid var(--accent-color);
 }
 
 .engagement .cards {
@@ -189,8 +210,15 @@ nav {
 }
 
 .engagement .card i{
-  font-size: 2em;
+  text-align: center;
+  font-size: 4em;
+  background-color: #42a4f52f;
+  padding: 0.25em;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
   color: var(--accent-color);
+  /* margin-top: 0.5em; */
 }
 
 .engagement ul {
@@ -199,6 +227,10 @@ nav {
 
 .engagement .card ul{
   padding-top: 2em;
+}
+
+.engagement .card ul li{
+  padding-bottom: 0.4em;
 }
 
 .engagement p{
